@@ -1,0 +1,29 @@
+$font: "Roboto", sans-serif;
+
+$colour1: #000;
+$colour2: #fff;
+$colour3: #808000;
+
+.header {
+  background-color: $colour3;
+  display: flex;
+  justify-content: space-between;
+  padding: 6px 6%;
+  position: fixed;
+  width: 100%;
+  * {
+    color: $colour2;
+  }
+  .links-box {
+    display: flex;
+    .link {
+      font-size: 28px;
+    }
+    .active-link {
+      color: $colour1;
+      i {
+        color: $colour1;
+      }
+    }
+  }
+}

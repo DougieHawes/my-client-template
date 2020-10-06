@@ -1,0 +1,31 @@
+$colour1: #000;
+$colour2: #fff;
+$colour3: #808000;
+
+.input {
+  border-color: $colour3;
+  border-width: 0 0 2px 0;
+  font-size: 28px;
+  height: 42px;
+  margin: 6px 0;
+  padding: 0 2%;
+  width: 100%;
+
+  transition: 0.3s border-width ease-in-out;
+}
+.input:focus {
+  border-width: 0 0 4px 0;
+}
+
+.button {
+  background-color: $colour3;
+  border: none;
+  color: $colour2;
+  font-size: 28px;
+  height: 42px;
+  margin: 28px 0 0 0;
+  text-align: center;
+  width: 100%;
+
+  transition: 0.3s border-width ease-in-out;
+}

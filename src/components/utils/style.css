@@ -1,0 +1,29 @@
+.input {
+  border-color: #808000;
+  border-width: 0 0 2px 0;
+  font-size: 28px;
+  height: 42px;
+  margin: 6px 0;
+  padding: 0 2%;
+  width: 100%;
+  -webkit-transition: 0.3s border-width ease-in-out;
+  transition: 0.3s border-width ease-in-out;
+}
+
+.input:focus {
+  border-width: 0 0 4px 0;
+}
+
+.button {
+  background-color: #808000;
+  border: none;
+  color: #fff;
+  font-size: 28px;
+  height: 42px;
+  margin: 28px 0 0 0;
+  text-align: center;
+  width: 100%;
+  -webkit-transition: 0.3s border-width ease-in-out;
+  transition: 0.3s border-width ease-in-out;
+}
+/*# sourceMappingURL=style.css.map */

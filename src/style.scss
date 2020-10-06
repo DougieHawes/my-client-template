@@ -1,0 +1,43 @@
+$font: "Roboto", sans-serif;
+
+$colour1: #000;
+$colour2: #fff;
+$colour3: #808000;
+
+::-webkit-scrollbar {
+  width: 14px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: $colour2;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: $colour3;
+}
+
+* {
+  box-sizing: border-box;
+  color: $colour1;
+  font-family: $font;
+  margin: 0;
+  outline: none;
+  text-decoration: none;
+  user-select: none;
+}
+
+.app {
+  background-color: $colour2;
+  min-height: 101vh;
+  .route-box {
+    .page {
+      padding: 70px 6%;
+      .page-title {
+        font-size: 42px;
+      }
+      .page-toggler {
+        font-size: 21px;
+      }
+    }
+  }
+}

@@ -1,0 +1,35 @@
+.header {
+  background-color: #808000;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 6px 6%;
+  position: fixed;
+  width: 100%;
+}
+
+.header * {
+  color: #fff;
+}
+
+.header .links-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.header .links-box .link {
+  font-size: 28px;
+}
+
+.header .links-box .active-link {
+  color: #000;
+}
+
+.header .links-box .active-link i {
+  color: #000;
+}
+/*# sourceMappingURL=style.css.map */

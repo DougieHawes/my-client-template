@@ -1,0 +1,43 @@
+::-webkit-scrollbar {
+  width: 14px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: #fff;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #808000;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  color: #000;
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  outline: none;
+  text-decoration: none;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+
+.app {
+  background-color: #fff;
+  min-height: 101vh;
+}
+
+.app .route-box .page {
+  padding: 70px 6%;
+}
+
+.app .route-box .page .page-title {
+  font-size: 42px;
+}
+
+.app .route-box .page .page-toggler {
+  font-size: 21px;
+}
+/*# sourceMappingURL=style.css.map */
