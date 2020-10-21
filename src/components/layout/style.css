@@ -32,4 +32,9 @@
 .header .links-box .active-link i {
   color: #000;
 }
+
+.header .toggle {
+  padding-left: 50%;
+  position: absolute;
+}
 /*# sourceMappingURL=style.css.map */

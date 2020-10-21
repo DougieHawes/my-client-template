@@ -1,8 +1,4 @@
-$font: "Roboto", sans-serif;
-
-$colour1: #000;
-$colour2: #fff;
-$colour3: #808000;
+@import "./variables";
 
 ::-webkit-scrollbar {
   width: 14px;
